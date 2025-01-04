@@ -1,0 +1,255 @@
+{
+  "customers": [
+      {
+          "id": "A3B2C1D4E5",
+          "fullName": "John Doe",
+          "birthDate": "1980-05-15",
+          "identification": "12345678A",
+          "gender": "Male",
+          "nationality": "Spanish",
+          "registrationDate": "2023-01-01",
+          "userStatus": "Active",
+          "contactInformation": [
+              {
+              "alias": "Home",
+              "address": "123 Fake Street, Madrid",
+              "zipcode": "28010",
+              "landlinePhone": "+34 911234567",
+              "mobilePhone": "+34 612345678",
+              "email": "john.doe@example.com"
+              }
+          ],
+          "servicesInformation": [
+              {
+                  "id": "1",
+                  "serviceType": "Fiber",
+                  "serviceStatus": "active",
+                  "contractStartDate": "2023-04-15",
+                  "renewalDate": "2024-04-15",
+                  "observations": "Customer requested additional technical support",
+                  "serviceConditions": {
+                    "availableOptions": ["100Mbps"],
+                    "additionalFeatures": ["Wi-Fi router included", "Technical support 24/7"],
+                    "promotions": ["NetflixIncluded"]
+                  }
+                }
+          ]
+      },
+      {
+          "id": "Z9Y8X7W6V5",
+          "fullName": "Emilia Cartera",
+          "birthDate": "1992-11-04",
+          "identification": "21586567C",
+          "gender": "Female",
+          "nationality": "Spanish",
+          "registrationDate": "2022-03-15",
+          "userStatus": "Active",
+          "contactInformation": [
+              {
+                  "alias": "Casa",
+                  "address": "12 Oak Street, Barcelona",
+                  "zipcode": "08006",
+                  "landlinePhone": "+34 985269627",
+                  "mobilePhone": "+34 685641634",
+                  "email": "emily.carter@example.com"
+              }
+          ],
+          "servicesInformation": [
+              {
+                  "id": "2",
+                  "serviceType": "Telephony",
+                  "serviceStatus": "suspended",
+                  "contractStartDate": "2022-11-20",
+                  "renewalDate": "2023-11-20",
+                  "observations": "Payment overdue",
+                  "serviceConditions": {
+                    "availableOptions": [600, 1000, 1500],
+                    "additionalFeatures": ["Caller ID", "Call waiting"],
+                    "promotions": []
+                }
+              }
+          ]
+      },
+      {
+          "id": "1Q2W3E4R5T",
+          "fullName": "David Rodriguez",
+          "birthDate": "1985-07-12",
+          "identification": "45896321B",
+          "gender": "Male",
+          "nationality": "Spanish",
+          "registrationDate": "2021-02-10",
+          "userStatus": "Active",
+          "contactInformation": [
+            {
+              "alias": "Oficina",
+              "address": "Calle Mayor 34, Madrid",
+              "zipcode": "28018",
+              "landlinePhone": "+34 917854321",
+              "mobilePhone": "+34 698521473",
+              "email": "david.rodriguez@company.es"
+            }
+          ],
+          "servicesInformation": [
+            {
+              "id": "1",
+              "serviceType": "Fiber",
+              "serviceStatus": "active",
+              "contractStartDate": "2021-02-10",
+              "renewalDate": "2024-02-10",
+              "observations": "None",
+              "serviceConditions": {
+                "availableOptions": ["100Mbps"],
+                "additionalFeatures": ["Wi-Fi router included"],
+                "promotions": ["Fiber1000GB"]
+              }
+            }
+          ]
+        },
+        {
+          "id": "P7O6N5M4L3",
+          "fullName": "Sofia Martinez",
+          "birthDate": "1998-03-21",
+          "identification": "78945612A",
+          "gender": "Female",
+          "nationality": "Spanish",
+          "registrationDate": "2023-11-22",
+          "userStatus": "Pending",
+          "contactInformation": [
+            {
+              "alias": "Casa",
+              "address": "Avenida Valencia 121, Valencia",
+              "zipcode": "46017",
+              "landlinePhone": "+34 963214567",
+              "mobilePhone": "+34 645231789",
+              "email": "sofia.martinez@example.com"
+            }
+          ],
+          "services": []
+        },
+        {
+          "id": "G4H3J2K1L0",
+          "fullName": "Alejandro Garcia",
+          "birthDate": "1975-01-05",
+          "identification": "12378945C",
+          "gender": "Male",
+          "nationality": "Spanish",
+          "registrationDate": "2020-05-18",
+          "userStatus": "Active",
+          "contactInformation": [
+            {
+              "alias": "Principal",
+              "address": "Calle Serrano 201, Barcelona",
+              "zipcode": "08007",
+              "landlinePhone": "+34 934562178",
+              "mobilePhone": "+34 678456231",
+              "email": "alejandro.garcia@work.es"
+            },
+            {
+              "alias": "Secundario",
+              "address": "Calle Mallorca 154, Palma de Mallorca",
+              "zipcode": "07005",
+              "landlinePhone": "+34 971234560",
+              "mobilePhone": "+34 618942357",
+              "email": "alejandro.garcia.secondary@work.es"
+            }
+          ],
+          "servicesInformation": [
+            {
+              "id": "3",
+              "serviceType": "Television",
+              "serviceStatus": "active",
+              "contractStartDate": "2020-05-18",
+              "renewalDate": "2025-05-18",
+              "observations": "None",
+              "serviceConditions": {
+                "associatedHardware": ["decoder"],
+                "availableOptions": ["Antena 3"],
+                "additionalFeatures": ["On-demand content"],
+                "promotions": ["Family package"]
+              }
+            },
+            {
+              "id": "4",
+              "serviceType": "Streaming",
+              "serviceStatus": "active",
+              "contractStartDate": "2022-10-24",
+              "renewalDate": "2024-10-24",
+              "observations": "None",
+              "serviceConditions": {
+                "availableOptions": ["Spotify", "Apple Music", "HBOMax", "Youtube Premium"],
+                "additionalFeatures": ["Offline listening", "Ad-free"],
+                "promotions": ["Music Streaming Plan", "Video Player Plan"]
+              }
+            }
+          ]
+        }
+  ],
+  "services" : [
+    {
+      "id": "S1",
+      "serviceType": "Fiber",
+      "description": "High-speed internet connection",
+      "price": "€50/month",
+      "contractStartDate": "2023-04-15",
+      "contractEndDate": "2024-04-15",
+      "serviceConditions": {
+        "availableOptions": ["100Mbps", "300Mbps", "1Gbps"],
+        "additionalFeatures": ["Wi-Fi router included", "Technical support 24/7"],
+        "promotions": ["Fiber1000GB", "NetflixIncluded"]
+      }
+    },
+    {
+      "id": "S2",
+      "serviceType": "Telephony",
+      "description": "Home phone service",
+      "price": "€15/month",
+      "contractStartDate": "2022-11-20",
+      "contractEndDate": "2023-11-20",
+      "serviceConditions": {
+        "availableOptions": ["600 min.", "1000 min.", "1500 min."],
+        "additionalFeatures": ["Caller ID", "Call waiting"],
+        "promotions": []
+      }
+    },
+    {
+      "id": "S3",
+      "serviceType": "Television",
+      "description": "Basic TV package",
+      "price": "€30/month",
+      "contractStartDate": "2020-05-18",
+      "contractEndDate": "2025-05-18",
+      "serviceConditions": {
+        "associatedHardware": ["decoder"],
+        "availableOptions": ["BBC", "CNN", "Antena 3"],
+        "additionalFeatures": ["HD channels", "On-demand content"],
+        "promotions": ["Family package"]
+      }
+    },
+    {
+      "id": "S4",
+      "serviceType": "Streaming",
+      "description": "Music streaming service",
+      "price": "€10/month",
+      "contractStartDate": "2022-10-24",
+      "contractEndDate": "2024-10-24",
+      "serviceConditions": {
+        "availableOptions": ["Spotify", "Apple Music", "HBOMax", "Youtube Premium"],
+        "additionalFeatures": ["Offline listening", "Ad-free"],
+        "promotions": ["Music Streaming Plan", "Video Player Plan"]
+      }
+    },
+    {
+        "id": "S5",
+        "serviceType": "Home Automation",
+        "description": "Home automation system",
+        "price": "€35/month",
+        "contractStartDate": "2023-11-01",
+        "contractEndDate": "2024-11-01",
+        "serviceConditions": {
+          "availableOptions": ["Security cameras", "Smart thermostats"],
+          "additionalFeatures": ["Voice control", "Integration with virtual assistants"],
+          "promotions": ["SmartHome"]
+        }
+      }
+  ]
+}
